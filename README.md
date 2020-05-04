@@ -1,7 +1,11 @@
-Note Taker
+Note Taker 
+
+
+
 By Araya Nawrath
-Description
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+
+
+ Description Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
 The application frontend has already been created, it's your job to build the backend and connect the two.
 
@@ -21,25 +25,21 @@ POST /api/notes - Should receive a new note to save on the request body, add it 
 
 DELETE /api/notes/:id - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique id when it's saved. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
 
-User Story
-AS A user, I want to be able to write and save notes
+User Story AS A user, I want to be able to write and save notes
 
 I WANT to be able to delete notes I've written before
 
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-Business Context
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+Business Context For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
-Acceptance Criteria
-Application should allow users to create and save notes.
+Acceptance Criteria Application should allow users to create and save notes.
 
 Application should allow users to view previously saved notes.
 
 Application should allow users to delete previously saved notes.
 
-Commit Early and Often
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Commit Early and Often One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
 Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
@@ -57,8 +57,7 @@ Test your application before you commit to ensure functionality at every step in
 
 We would like you to have well over 200 commits by graduation, so commit early and often!
 
-Submission on BCS
-You are required to submit the following:
+Submission on BCS You are required to submit the following:
 
 The URL of the deployed application
 
